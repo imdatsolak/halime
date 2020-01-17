@@ -1,5 +1,8 @@
 # Halime
+
 Halime is (was) a Usenet news reader for macOS when it was still called OSX.
+
+![Halime](resources/Halime.png)
 
 I stopped development some time in 2003 or 2004. This is for historical and educational usage only. You can't actually compile this code anymore with the current XCode. It requires something from the 2004/2005-era.
 
