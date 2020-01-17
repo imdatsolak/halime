@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {optionChanged = id; }; 
+            CLASS = ISOViewOptionsMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                pbDate = id; 
+                pbFollowupTo = id; 
+                pbFrom = id; 
+                pbNewsgroups = id; 
+                pbOrganization = id; 
+                pbReplyTo = id; 
+                pbSubject = id; 
+                plcAttachments = id; 
+                plcDate = id; 
+                plcDateLongShortDates = id; 
+                plcDateRelativeDates = id; 
+                plcFlag = id; 
+                plcFrom = id; 
+                plcFromNameOnly = id; 
+                plcLines = id; 
+                plcLoaded = id; 
+                plcRead = id; 
+                plcSubject = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

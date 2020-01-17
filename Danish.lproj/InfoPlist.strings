@@ -1,0 +1,16 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Halime";
+CFBundleShortVersionString = "1.0b5";
+CFBundleGetInfoString = "Halime v1.0b5, Copyright © 2001-2007 Imdat Solak.";
+NSHumanReadableCopyright = "Copyright © 2001-2007 Imdat Solak. Alle rettigheder reserveret.";
+NSTypes = (
+    {
+    NSName = "halime";
+    NSHumanReadableName = "Halime Abonnementsarkiv";
+    NSUnixExtensions = ("halime");
+    NSDOSExtensions = ("hlm");
+    NSRole = Editor;
+    NSDocumentClass = ISOSubscriptionMgr;
+    }
+);

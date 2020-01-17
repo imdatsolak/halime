@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {down = id; jobSelected = id; kill = id; start = id; up = id; }; 
+            CLASS = ISOJobViewMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                downButton = id; 
+                jobTable = id; 
+                killButton = id; 
+                startButton = id; 
+                upButton = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ISOPITableColumn; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {rowCells = id; }; 
+            SUPERCLASS = NSTableColumn; 
+        }
+    ); 
+    IBVersion = 1; 
+}

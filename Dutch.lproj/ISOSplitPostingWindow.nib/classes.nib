@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {subscriptionChanged = id; }; 
+            CLASS = ISOMasterSubscriptionWindowMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theSubscriptionMgr = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = ISOReaderWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            CLASS = ISOSplitPostingWindowMgr; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = ISOMasterSubscriptionWindowMgr; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

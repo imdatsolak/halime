@@ -1,0 +1,66 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {subscriptionChanged = id; }; 
+            CLASS = ISOMasterSubscriptionWindowMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theSubscriptionMgr = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                addAttachmentButtonClicked = id; 
+                addHeader = id; 
+                additionalHeaders = id; 
+                attachmentTableClicked = id; 
+                cancelClicked = id; 
+                changeHeader = id; 
+                deleteHeader = id; 
+                encodingChanged = id; 
+                finishedEditingHeaders = id; 
+                followUpToPopupClicked = id; 
+                headerTableClicked = id; 
+                identityChanged = id; 
+                loadClicked = id; 
+                newsgroupsPopupClicked = id; 
+                recolorizeTextview = id; 
+                removeAttachmentButtonClicked = id; 
+                saveClicked = id; 
+                sendClicked = id; 
+            }; 
+            CLASS = ISOPostingWindowMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addHeaderButton = id; 
+                additionalHeadersPanel = id; 
+                attachmentsTable = id; 
+                changeHeaderButton = id; 
+                deleteHeaderButton = id; 
+                encAttLeftField = id; 
+                encAttNameField = id; 
+                encMsgWindow = id; 
+                encodingPopup = id; 
+                followUpField = id; 
+                followUpToPopup = id; 
+                fromField = id; 
+                headerField = id; 
+                headerTable = id; 
+                identityPopup = id; 
+                newsgroupsField = id; 
+                newsgroupsPopup = id; 
+                removeButton = id; 
+                replyToField = id; 
+                rewrapBeforeSendingSwitch = id; 
+                storedMessageID = id; 
+                storedReferences = id; 
+                subjectField = id; 
+                textView = id; 
+                valueField = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

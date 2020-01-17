@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {justStep = id; reset = id; start = id; stop = id; }; 
+            CLASS = ISOProgressController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                delegate = id; 
+                displayStringField = id; 
+                messageField = id; 
+                progressView = id; 
+                titleField = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

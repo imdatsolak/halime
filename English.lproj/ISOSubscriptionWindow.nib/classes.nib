@@ -1,0 +1,290 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ISODragImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {
+            ACTIONS = {
+                addEntry = id; 
+                changeEntry = id; 
+                deleteEntry = id; 
+                entrySelected = id; 
+                okClicked = id; 
+            }; 
+            CLASS = ISOFriendsFavController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addButton = id; 
+                changeButton = id; 
+                entryField = id; 
+                entryTable = id; 
+                removeButton = id; 
+                titleField = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ISOGraphicalTV; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {changeImageSize = id; toggleDetailedTooltip = id; }; 
+            CLASS = ISOGraphicalTVMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                detailedTooltipSwitch = id; 
+                drawer = id; 
+                graphicalTV = id; 
+                imageSizePopup = id; 
+                owner = id; 
+                target = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {subscriptionChanged = id; }; 
+            CLASS = ISOMasterSubscriptionWindowMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theSubscriptionMgr = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                attachmentDoubleClicked = id; 
+                musicDoubleClicked = id; 
+                musicSelected = id; 
+                otherSelected = id; 
+                pictureSelected = id; 
+                picturesDoubleClicked = id; 
+                saveMusic = id; 
+                saveOther = id; 
+                savePicture = id; 
+                saveRawSource = id; 
+                saveText = id; 
+                saveVideo = id; 
+                scaleImageToFitClicked = id; 
+                videoSelected = id; 
+                videosDoubleClicked = id; 
+            }; 
+            CLASS = ISOOnePostingDisplayMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                musicTable = id; 
+                musicView = id; 
+                otherExtField = id; 
+                otherMimeField = id; 
+                otherTable = id; 
+                pictureScrollView = id; 
+                pictureView = id; 
+                picturesTable = id; 
+                rawSourceField = id; 
+                saveMusicButton = id; 
+                saveOtherButton = id; 
+                savePictureButton = id; 
+                saveSourceButton = id; 
+                saveTextButton = id; 
+                saveVideoButton = id; 
+                scaleImageToFitSwitch = id; 
+                subscriptionWindowMgr = id; 
+                tabView = id; 
+                textField = id; 
+                videoView = id; 
+                videosTable = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {abort = id; cancelPosting = id; }; 
+            CLASS = ISOPostingCanceler; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelPanel = id; 
+                cancelReasonPopup = id; 
+                dateSentField = id; 
+                messageIDField = id; 
+                originalNewsgroupsField = id; 
+                originalSenderField = id; 
+                originalSubjectField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {cancel = id; resetPostingNumber = id; }; 
+            CLASS = ISOPostingNumberResetter; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {resetLPNField = id; resetLastPostingNumberPanel = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ISOReadPostingTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = ISOReaderPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {CLASS = ISOReaderWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                addSPAMFilter = id; 
+                changeSPAMFilter = id; 
+                deleteSPAMFilter = id; 
+                okClicked = id; 
+                spamFilterSelected = id; 
+                spamOperatorMenuSelected = id; 
+                spamWhatMenuSelected = id; 
+                usesGlobalSpamSwitchClicked = id; 
+            }; 
+            CLASS = ISOSPAMFilterMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                spamActionMenu = id; 
+                spamAddFilterButton = id; 
+                spamChangeFilterButton = id; 
+                spamContainsField = id; 
+                spamDeleteFilterButton = id; 
+                spamHeaderMenu = id; 
+                spamList = id; 
+                spamOperatorMenu = id; 
+                useGlobalSpamSwitch = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {cancel = id; loadPosting = id; }; 
+            CLASS = ISOSinglePostingLoader; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {loadingMessageField = id; messageIDField = id; messageIDPanel = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addGroupsButtonClicked = id; 
+                newsgroupSelected = id; 
+                removeGroupButtonClicked = id; 
+                toggleAbbreviatedGroupNames = id; 
+            }; 
+            CLASS = ISOSubsDrawerMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                abbreviatedGroupNamesSwitch = id; 
+                activeGroup = id; 
+                boxesOlv = id; 
+                drawer = id; 
+                groupsOlv = id; 
+                removeGroupButton = id; 
+                serverNameField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ISOSubscriptionMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                subscriptionPropertiesWindowMgr = id; 
+                subscriptionReaderWindowMgr = id; 
+                subscriptionWindowMgr = id; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {
+                cancel = id; 
+                groupSelected = id; 
+                groupsFieldChanged = id; 
+                refreshServerGroups = id; 
+                serverSelected = id; 
+                subscribe = id; 
+                subscriptionChanged = id; 
+            }; 
+            CLASS = ISOSubscriptionServerMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                groupFieldTitlePopup = id; 
+                groupsField = id; 
+                groupsTable = id; 
+                serverTable = id; 
+                statusTextField = id; 
+                subscribeButton = id; 
+                theSubscriptionMgr = id; 
+                unsubscribeButton = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addGroupsButtonClicked = id; 
+                addSPAMFilterWithSender = id; 
+                addSPAMFilterWithSubject = id; 
+                addSelectionToBinaryExtractor = id; 
+                addSenderToFriendsList = id; 
+                addSubjectToFavorites = id; 
+                downloadSelection = id; 
+                downloadSelectionWithThreads = id; 
+                expireCancelClicked = id; 
+                expireRemoveClicked = id; 
+                filterForToolbarSelection = id; 
+                flagSelection = id; 
+                followUpPosting = id; 
+                gtvPostingSelected = id; 
+                markGroupRead = id; 
+                markGroupUnread = id; 
+                markRead = id; 
+                markThreadRead = id; 
+                markThreadUnread = id; 
+                markUnread = id; 
+                newsgroupSelected = id; 
+                outlineViewClicked = id; 
+                postingLoadFinished = id; 
+                removeSelection = id; 
+                replyAuthor = id; 
+                saveSelection = id; 
+                searchCancel = id; 
+                searchOK = id; 
+                showWindow = id; 
+                subscriptionChanged = id; 
+                unflagSelection = id; 
+            }; 
+            CLASS = ISOSubscriptionWindowMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                activeGroup = id; 
+                drawerMgr = id; 
+                encodingMenu = id; 
+                expireField = id; 
+                expirePanel = id; 
+                expireStatusField = id; 
+                expireStatusIndicator = id; 
+                expireStatusWindow = id; 
+                expireTitleField = id; 
+                filterGroup = id; 
+                filterGroupField = id; 
+                filterGroupMenu = id; 
+                filterMgr = id; 
+                followUpsArrived = id; 
+                friendsFavController = id; 
+                graphicalThreadViewMgr = id; 
+                groupsDrawer = id; 
+                groupsMenu = id; 
+                groupsTable = id; 
+                markMenu = id; 
+                messageCanceler = id; 
+                postingDisplayMgr = id; 
+                postingNumberResetter = id; 
+                postingsCountField = id; 
+                postingsTable = id; 
+                postingsTableScrollView = id; 
+                progressIndicator = id; 
+                progressMessageField = id; 
+                searchField = id; 
+                searchIgnoreCaseSwitch = id; 
+                searchPanel = id; 
+                searchPopup = id; 
+                searchSearchStartPosting = id; 
+                searchStartFromTopSwitch = id; 
+                serverMgr = id; 
+                serverNameField = id; 
+                singlePostingLoader = id; 
+                splitView = id; 
+                tabView = id; 
+                textScrollView = id; 
+            }; 
+            SUPERCLASS = ISOMasterSubscriptionWindowMgr; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

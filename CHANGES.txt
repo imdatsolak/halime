@@ -1,0 +1,34 @@
+Changes 1.0b1
+- When refreshing groups list from the server or loading the full group list for the first time, it would take very, very long - fixed
+- When trying to add new groups, it would take very, very long - fixed (related to above)
+- Some sheets had a weird behavior after closing them, especially SPAM + Reset Last Posting window - fixed
+- Sometimes, Halime would refuse to post a message with a "Line 4 too long" error message - fixed
+- Halime would not store the column order of the posting list - fixed
+- Some small UI fixes with column ordering, column width, resizability, etc.
+- Follow-UP (<W7DV9.113930$hK4.9262690@bgtnsc05-news.ops.worldnet.att.net>, <avsn65$ii0c6$1@ID-97732.news.dfncis.de> [alt.startrek.vs.starwars])
+- Crash on closing a subscription ("_timedLoad")
+- Hide read
+- Pictures: Scale to fit
+
+
+Changes 1.0b
+- Small changes in the Norwegian localization
+- When viewing a posting and "Autocheck for new" was switched on, Halime would lose the focus when the currently active group was updated - fixed
+- Added "Catch Up Subscription"
+- Fixed threaded display bugs: Now "Load parent posting..." works correctly (this may slow down checking for new postings)
+- Check for new postings on loading of a subscription: If "Auto check for new" is switched on, Halime now automatically checks for new postings on load of a subscription
+- Added "Load posting with Message-ID"; This allows to enter a message ID for Halime to load that message
+- Added "Lock/Unlock Selected Postings": Locked postings are not deleted/removed when using "Remove"; If you want to delete them, you need to unlock first. Beware: Locking is done RECURSIVELY, that is if you lock the parent posting of a thread, all sub postings are locked, too (but you can unlock them, of course)
+- Cross-group "Mark Read/Unread": When a cross-posted posting is read/unread in one group, it is automatically marked read/unread in other groups of the same subscription now
+- Cross-group "Load posting": When a cross-posted postings body is loaded in one group, it is automatically loaded in other groups in the same subscription, too.
+- "Detailed Tooltips" in the GTV now ignores quoted text in follow-ups
+- Fixed some bugs in German localization
+- Fixed a bug which prevented canceling of messages
+- Added a new non-Command-shortcut, "." (period): This marks the current group as read and removes all postings in it and moves to the next group in subscription (Mark Group Read + Catch Up + Next Group). Attention: This action is done WITHOUT any alert boxes, use it only, if you know what you are doing ;-)
+- Fixed a bug which prevented from following-up certain postings
+- Removed Dutch localization on popular demand
+- Fixed certain other bugs and improved performance a bit
+- Note: This is the first beta version of Halime; Please send all _bug-reports_ to halime@imdat.de
+- Note2: The localization files (except for German and English) contain non-local terms which will be translated in the next beta-release(s)
+
+// - Added threaded subscription saving, i.e.: When you choose "Save Subscription", you can immediately keep working, the saving will happen in the background

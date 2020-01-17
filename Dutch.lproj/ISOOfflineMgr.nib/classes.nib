@@ -1,0 +1,76 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                chooseDownloadDirectory = id; 
+                cleanupErrors = id; 
+                extractFileTypesSwitchClicked = id; 
+                holdonBinaries = id; 
+                holdonDownloads = id; 
+                holdonGroups = id; 
+                holdonUploads = id; 
+                releaseBinaries = id; 
+                releaseDownloads = id; 
+                releaseGroups = id; 
+                releaseUploads = id; 
+                removeBinaries = id; 
+                removeDownloads = id; 
+                removeGroups = id; 
+                removeUploads = id; 
+                sendReceiveAndGoOffline = id; 
+                sendReceiveAndStayOnline = id; 
+                showErrors = id; 
+                uploadsDoubleClicked = id; 
+            }; 
+            CLASS = ISOOfflineMgr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                actionMessageField = id; 
+                binariesSwitch = id; 
+                binariesTable = id; 
+                chooseDownloadFolderButton = id; 
+                createDateSubdirsSwitch = id; 
+                createGroupSubdirsSwitch = id; 
+                dontExtractMultipartSwitch = id; 
+                downloadFolderField = id; 
+                downloadsTable = id; 
+                errorTable = id; 
+                errorTextView = id; 
+                errorWindow = id; 
+                extractFileTypesOnlySwitch = id; 
+                extractionFileTypesField = id; 
+                filenamePopup = id; 
+                groupsSwitch = id; 
+                groupsTable = id; 
+                holdBinariesButton = id; 
+                holdGroupButton = id; 
+                holdonDownloadsButton = id; 
+                holdonUploadsButton = id; 
+                incomingSwitch = id; 
+                numBinariesField = id; 
+                numDownloadField = id; 
+                numUploadField = id; 
+                outgoingSwitch = id; 
+                progressIndicator = id; 
+                progressMessageField = id; 
+                releaseBinariesButton = id; 
+                releaseDownloadsButton = id; 
+                releaseGroupButton = id; 
+                releaseUploadsButton = id; 
+                removeBinariesButton = id; 
+                removeDownloadsButton = id; 
+                removeGroupButton = id; 
+                removeUploadsButton = id; 
+                srOfflineButton = id; 
+                srOnlineButton = id; 
+                tabView = id; 
+                totalProgressIndicator = id; 
+                uploadsTable = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
